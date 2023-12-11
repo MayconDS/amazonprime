@@ -1,0 +1,87 @@
+header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.container {
+  background-color: #19232e;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container > .header-left > .logo {
+  margin: 30px 0px 0px 50px;
+  align-items: center;
+}
+.container > .header-left > .logo > a {
+  font-size: 112px;
+  color: #fff;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: rgba(242, 244, 246, 0.9);
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+.header-left a:hover {
+  color: #fff;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: rgba(242, 244, 246, 0.9);
+  transition: all ease 0.3s;
+}
+.header-right a:hover {
+  color: #fff;
+}
+
+.header-right {
+  margin-right: 55px;
+  width: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-right a {
+  margin: 0px 20px 0px 30px;
+  text-decoration: none;
+  color: rgba(242, 244, 246, 0.9);
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.header-right button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #0f79af;
+  border: none;
+  padding: 11px 30px;
+  align-items: center;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header-right button:hover {
+  background-color: #108fce;
+}
+
+@media (max-width: 1120px) {
+  .header-loja,
+  .header-canais,
+  .header-categorias,
+  .header-minhas-areas,
+  .header-right a {
+    display: none;
+  }
+}

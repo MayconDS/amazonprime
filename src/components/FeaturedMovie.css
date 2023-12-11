@@ -1,0 +1,13 @@
+.section {
+  width: 100%;
+  height: 37vh;
+}
+.banner {
+  height: 47vh;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-position-y: 40px;
+  background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/SVOD_ROW_TheBoys_S3_Finale/221d3640-7c94-46e6-bf11-57015e5235cd._UR3000,600_SX1500_FMwebp_.jpeg");
+}
